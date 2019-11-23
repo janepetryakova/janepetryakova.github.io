@@ -1,0 +1,378 @@
+*{ /*ОТНОСИТЬСЯ КО ВСЕМ*/
+	padding: 0; /*внутрений отступ*/
+	margin: 0; /*внешний отступ*/
+}
+
+
+
+#head	{ /*1 экран*/
+	height: 100vh;/*высота*/
+	background-image:url(../img/car3.jpg);/*картинка на задний фон*/
+	background-repeat: no-repeat; /*не повторять изображение*/
+	background-size: cover; /*растянуть изображение по экрану*/  /*размер изображения масштаб*/
+	background-position: center,top;/*положение*/
+	padding-top: 30px;/*внутрений отступ с вверху*/
+	width: 100vw; /*ширина*/
+	color: white; /*цвет текста*/
+	font-family: 'Montserrat', sans-serif; /*шрифт*/
+}	
+.main_conteiner{ /*по центру*/
+	width: 90%; 
+	margin: 0px auto;/*по центру*/
+}
+a{
+	text-decoration:none; /*убрать нижнее подчёркивание*/
+	
+	color:white;
+}
+.header_container{
+	width: 100%	;
+	display: flex;/*все элементы выстраевает в одну линию*/
+	flex-wrap: wrap;/*без потери параметров*/
+	justify-content: space-between;/*прижимает превые и последние элементы к краям*/
+}
+
+.logo {
+	font-size: 24px;/*размер шрифта*/
+	position: relative;
+}
+.logo p {
+	position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    width: 200px;
+    height: 30px;
+    color:#fff;
+}
+
+.menu {
+	position: relative;
+	height: 48px;
+	width: 60vw;
+
+}
+
+
+.about {
+	position: absolute;
+    display: inline-block;
+    top: 50%;
+    height: 20px;
+    margin-top: -10px;
+}
+
+.goods {
+	position: absolute;
+    display: inline-block;
+    top: 50%;
+    left: 8vw;
+    height: 20px;
+    margin-top: -10px;
+}
+
+.service {
+	position: absolute;
+    display: inline-block;
+    top: 50%;
+    left: 18vw;
+    height: 20px;
+    margin-top: -10px;
+}
+
+.contacts {
+	position: absolute;
+    display: inline-block;
+    top: 50%;
+    left: 27.5vw;
+    height: 20px;
+    margin-top: -10px;
+}
+.vk_a {
+	position: absolute;
+    display: inline-block;
+    top: 50%;
+    left: 39vw;
+    height: 48px;
+    margin-top: -24px;
+}
+.insta {
+	position: absolute;
+    display: inline-block;
+    top: 50%;
+    left: 45.5vw;
+    height: 48px;
+    margin-top: -24px;
+}
+.phone {
+	position: absolute;
+    display: inline-block;
+    top: 50%;
+    left: 52.5vw;
+    height: 20px;
+    margin-top: -10px;
+}
+.title{
+	width: 500px;
+	margin-left: auto;
+	text-align:center;/*выравнивоние текста по центру*/
+	margin-top: 15vh;
+}
+.button{ /*кнопка*/
+	display: block;/*из строчной станет блочной*/
+	width: 150px;
+	height: 40px;
+	margin: auto;
+	padding-top: 8px;
+	border: 2px solid #C0C0C0;/*рамка кнопки*//*solid сплашная*/
+	box-sizing: border-box;/*ширина и отступу включаются в объект*/
+	margin-top: 10px;	
+}
+.h1	{
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 46px;
+}
+.title_gak{
+	color:#C0C0C0;
+}
+.button:hover{
+	background-color: #DCDCDC;
+	color: #000;
+
+}
+.menu a:hover{
+	color: #C0C0C0;
+}
+
+#about_us {
+	display: flex;
+	height: 110vh;
+	padding-top: 30px;
+	font-family: 'Montserrat', sans-serif;
+	bpackground-image: url(../img/car5.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-color:#d8d3d7;/*#f7f5f8#1e1c1d #c4c0c5*/
+	color: #fff;
+	text-shadow: 1px 1px 4px #000;
+}
+.second_container{
+	display: flex;
+	justify-content: space-between;
+	
+}
+.second_title{
+	margin: auto;
+	width: 200px;
+	margin-bottom: 50px;
+	font-size: 50px;
+	margin-top: 50px;
+	text-align: center;
+
+}
+.inner{
+	width: calc(100% / 4 - 20px);
+	text-align: center;
+	margin: ;
+	font-size: 24px;
+}
+.spin{
+	display: block;
+	background-color:#C0C0C0;
+	width: 40px;
+	margin: 0px auto;
+	height: 3px;
+	margin-bottom: 50px;
+}
+.two_section_img {
+	margin-bottom: 35px;
+	height: 100px;
+}
+.spinner{
+	display: block;
+	background-color:#C0C0C0;
+	width: 40px;
+	margin: 0px auto;
+	height: 3px;
+	margin-bottom: 80px;
+}
+.third_title {
+	margin: auto;
+	font-size: 50px;
+	width: 400px;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+#contect {
+	padding-top: 50px;
+	height: 100vh;
+	padding-top: 30px;
+	font-family: 'Montserrat', sans-serif;
+}
+.title___third{
+	font-size: 24px;
+	width: calc(100% / 2)
+}
+.inframe{
+	width: calc(100% / 2)
+}
+.map {
+	display: flex;
+}
+.spiin{
+	color: #d83f3e;
+}
+.vk{
+	display: inline-block;
+
+}
+.obr{
+	margin: auto;
+	text-align: center;
+
+}
+
+input {
+	display: block;
+	text-align: center;
+	width: 50%;	
+	margin: 5px auto;
+
+}
+form{
+	text-align: center;
+	border: 2px solid #C0C0C0;
+	width: 400px;
+	margin: 0px auto;
+	height: 225px;
+
+}
+.but{
+	display: block;/*из строчной станет блочной*/
+	width: 150px;
+	height: 40px;
+	margin: 5px auto;
+	padding-top: 2px;
+	border: 2px solid #C0C0C0;/*рамка кнопки*//*solid сплашная*/
+	box-sizing: border-box;/*ширина и отступу включаются в объект*/
+	margin-top: 10px;
+	font-family: 'Montserrat', sans-serif;
+
+}
+.but:hover {
+	color: #FFF;
+	background-color: #ad090a;
+}
+#subyfer {
+	height: 100vh;
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 30px;
+}
+.four_title {
+	font-size: 50px; 
+	margin: 0px auto;
+	width: 1000px;
+	text-align: center;
+	margin-top: 50px;
+}
+.five_title {
+	font-size: 50px; 
+	margin: auto;
+	width: 1000px;
+	text-align: center;
+	margin-top: 50px;
+}
+#shop {
+	height: 120vh;
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 30px;
+}
+.products {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	font-size: 24px;
+}
+.product {
+	width: calc(100% / 4 - 20px);
+	height: 45vh;
+	background-color: #fbf7fa;	
+	margin: 20px 0px;
+}
+.fotos {
+	height: 65%;
+	margin: auto;
+	display: block;
+	margin-top: 20px;
+
+}
+.title_pro {
+	text-align: center;
+	margin-top: 35px;
+}
+#foot {
+	height: 23vh;
+	background-color: #171717;
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 20px;
+}
+.suuub {
+	width: calc(100% / 2);
+}
+.suub {
+ display: flex;
+}
+.sabbb {
+	margin-top: 30px;
+	font-family: 'Rubik', sans-serif;
+}
+.sabwoofer {
+	height:80vh;
+}
+.niz{
+	height: 2px;
+	width: 90vw;
+	background-color: #C0C0C0;
+	display: block;
+	margin-top: 50px;
+}
+.pravo {
+	display: inline-block;
+	font-family: 'Rubik', sans-serif;
+	margin-top: 10px;
+}
+.dd{
+	color: #fff;
+	font-family: 'Rubik', sans-serif;
+	margin-top: 10px;
+}
+#stock {
+	height: 90vh;
+
+}
+.six_title {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 50px;
+	text-align: center;
+	margin-top: 50px;
+}
+.aks {
+	display: flex;
+}
+.akss{
+	width: calc(100% / 2);
+	margin-top: 50px;
+
+}
+.aksss{
+	width: calc(100% / 2);
+	margin-top: 50px;
+	text-align: center;
+	margin-left: 0.1vw;
+}
+.cena {
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 30px;
+
+}
